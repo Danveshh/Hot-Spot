@@ -835,271 +835,1298 @@
                 </div>
             </div>
         </div>
+<!-- Food Menu Screen -->
+<div id="food-menu-screen" class="screen">
+    <div class="screen-header">
+        <button class="back-button" onclick="showScreen('home')">←</button>
+        <h1>Food Menu</h1>
+        <div class="cart-icon" onclick="showScreen('cart')" style="margin-left: auto;">
+            🛒 <span id="cart-count">0</span>
+        </div>
+    </div>
+   <!-- SOUPS (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Soups (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Manchow</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Veg Manchow" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cream of Mushroom</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Cream of Mushroom" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cream of Tomato</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Cream of Tomato" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Hot and Sour</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Hot and Sour" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Clear Soup</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Clear Soup" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
 
-        <!-- Food Menu Screen -->
-        <div id="food-menu-screen" class="screen">
-            <div class="screen-header">
-                <button class="back-button" onclick="showScreen('home')">←</button>
-                <h1>Food Menu</h1>
-                <div class="cart-icon" onclick="showScreen('cart')" style="margin-left: auto;">
-                    🛒 <span id="cart-count">0</span>
-                </div>
-            </div>
-            <div class="screen-content">
-                <div class="menu-section">
-                    <h2 class="section-title">STARTERS</h2>
-                    <ul class="menu-list">
-                        <li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Paneer Tikka <small>(goes well with Amstel Grande)</small></div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹350</div>
-        <div class="item-controls" data-name="Paneer Tikka" data-price="350">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Chicken 65 <small>(goes well with KF Ultra Max)</small></div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹400</div>
-        <div class="item-controls" data-name="Chicken 65" data-price="400">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Masala Papad</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹120</div>
-        <div class="item-controls" data-name="Masala Papad" data-price="120">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Gobi Manchurian</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹280</div>
-        <div class="item-controls" data-name="Gobi Manchurian" data-price="280">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Chilli Chicken</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹380</div>
-        <div class="item-controls" data-name="Chilli Chicken" data-price="380">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Fish Fingers</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹420</div>
-        <div class="item-controls" data-name="Fish Fingers" data-price="420">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-                    </ul>
-                </div>
-                <div class="menu-section">
-                    <h2 class="section-title">MAIN COURSE</h2>
-                    <ul class="menu-list">
-                       <li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Butter Chicken</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹450</div>
-        <div class="item-controls" data-name="Butter Chicken" data-price="450">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Paneer Butter Masala</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹380</div>
-        <div class="item-controls" data-name="Paneer Butter Masala" data-price="380">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Biryani (Veg)</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹350</div>
-        <div class="item-controls" data-name="Biryani (Veg)" data-price="350">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Biryani (Non-Veg)</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹450</div>
-        <div class="item-controls" data-name="Biryani (Non-Veg)" data-price="450">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Dal Makhani</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹320</div>
-        <div class="item-controls" data-name="Dal Makhani" data-price="320">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Chicken Tikka Masala</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹420</div>
-        <div class="item-controls" data-name="Chicken Tikka Masala" data-price="420">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Fish Curry</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹480</div>
-        <div class="item-controls" data-name="Fish Curry" data-price="480">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-                    </ul>
-                </div>
-                <div class="menu-section">
-                    <h2 class="section-title">BREADS</h2>
-                    <ul class="menu-list">
-                       <li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Butter Naan</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹80</div>
-        <div class="item-controls" data-name="Butter Naan" data-price="80">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Garlic Naan</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹90</div>
-        <div class="item-controls" data-name="Garlic Naan" data-price="90">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Plain Roti</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹60</div>
-        <div class="item-controls" data-name="Plain Roti" data-price="60">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Lachha Paratha</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹90</div>
-        <div class="item-controls" data-name="Lachha Paratha" data-price="90">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-                    </ul>
-                </div>
-                <div class="menu-section">
-                    <h2 class="section-title">DESSERTS</h2>
-                    <ul class="menu-list">
-                      <li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Gulab Jamun</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹200</div>
-        <div class="item-controls" data-name="Gulab Jamun" data-price="200">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Rasmalai</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹250</div>
-        <div class="item-controls" data-name="Rasmalai" data-price="250">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Ice Cream</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹180</div>
-        <div class="item-controls" data-name="Ice Cream" data-price="180">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-<li class="menu-list-item">
-    <div class="menu-item-info">
-        <div class="menu-item-name">Chocolate Brownie</div>
-    </div>
-    <div class="price-controls-container">
-        <div class="item-price">₹220</div>
-        <div class="item-controls" data-name="Chocolate Brownie" data-price="220">
-            <button class="add-to-cart-btn" onclick="addToCart(this)">Add</button>
-        </div>
-    </div>
-</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
+<!-- SOUPS (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Soups (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Manchow</div></div>
+      <div class="price-controls-container"><div class="item-price">₹180</div>
+      <div class="item-controls" data-name="Chi Manchow" data-price="180"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Hot and Sour</div></div>
+      <div class="price-controls-container"><div class="item-price">₹180</div>
+      <div class="item-controls" data-name="Chi Hot and Sour" data-price="180"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Clear Soup</div></div>
+      <div class="price-controls-container"><div class="item-price">₹175</div>
+      <div class="item-controls" data-name="Chi Clear Soup" data-price="175"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- BAR NIBBLE (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Bar Nibble (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Snacks (Peanuts, Chakli, Moong, Chana Dal)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹40</div>
+      <div class="item-controls" data-name="Snacks (Peanuts, Chakli, Moong, Chana Dal)" data-price="40"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Snacks Chat</div></div>
+      <div class="price-controls-container"><div class="item-price">₹90</div>
+      <div class="item-controls" data-name="Snacks Chat" data-price="90"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Boil Chana</div></div>
+      <div class="price-controls-container"><div class="item-price">₹130</div>
+      <div class="item-controls" data-name="Boil Chana" data-price="130"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chana Chat</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Chana Chat" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Aloo Chat</div></div>
+      <div class="price-controls-container"><div class="item-price">₹145</div>
+      <div class="item-controls" data-name="Aloo Chat" data-price="145"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chana Garlic Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹170</div>
+      <div class="item-controls" data-name="Chana Garlic Fry" data-price="170"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chana Koliwada</div></div>
+      <div class="price-controls-container"><div class="item-price">₹170</div>
+      <div class="item-controls" data-name="Chana Koliwada" data-price="170"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cheese Cubes</div></div>
+      <div class="price-controls-container"><div class="item-price">₹155</div>
+      <div class="item-controls" data-name="Cheese Cubes" data-price="155"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Wafer</div></div>
+      <div class="price-controls-container"><div class="item-price">₹55</div>
+      <div class="item-controls" data-name="Wafer" data-price="55"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Nachos Plain</div></div>
+      <div class="price-controls-container"><div class="item-price">₹230</div>
+      <div class="item-controls" data-name="Nachos Plain" data-price="230"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Nachos Veg</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Nachos Veg" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Nachos Cheese</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Nachos Cheese" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Pakoda Veg</div></div>
+      <div class="price-controls-container"><div class="item-price">₹185</div>
+      <div class="item-controls" data-name="Pakoda Veg" data-price="185"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Pakoda Paneer</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Pakoda Paneer" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Pakoda Cheese</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Pakoda Cheese" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Butter Naan</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Paneer Butter Naan" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cheesy French Fries</div></div>
+      <div class="price-controls-container"><div class="item-price">₹275</div>
+      <div class="item-controls" data-name="Cheesy French Fries" data-price="275"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">French Fries</div></div>
+      <div class="price-controls-container"><div class="item-price">₹200</div>
+      <div class="item-controls" data-name="French Fries" data-price="200"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Peri Peri Fries</div></div>
+      <div class="price-controls-container"><div class="item-price">₹210</div>
+      <div class="item-controls" data-name="Peri Peri Fries" data-price="210"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cheese Corn Ball</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Cheese Corn Ball" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Corn Salt & Pepper</div></div>
+      <div class="price-controls-container"><div class="item-price">₹190</div>
+      <div class="item-controls" data-name="Corn Salt & Pepper" data-price="190"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Corn Butter Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹180</div>
+<!-- BREADS -->
+<div class="menu-section">
+  <div class="section-title">Breads</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Garlic Bread</div></div>
+      <div class="price-controls-container"><div class="item-price">₹155</div>
+      <div class="item-controls" data-name="Garlic Bread" data-price="155"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cheese Garlic Bread</div></div>
+      <div class="price-controls-container"><div class="item-price">₹185</div>
+      <div class="item-controls" data-name="Cheese Garlic Bread" data-price="185"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cheese Chilli Toast</div></div>
+      <div class="price-controls-container"><div class="item-price">₹190</div>
+      <div class="item-controls" data-name="Cheese Chilli Toast" data-price="190"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- INDIAN BREADS -->
+<div class="menu-section">
+  <div class="section-title">Indian Breads</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Tandoor Roti</div></div>
+      <div class="price-controls-container"><div class="item-price">₹40</div>
+      <div class="item-controls" data-name="Tandoor Roti" data-price="40"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Roti</div></div>
+      <div class="price-controls-container"><div class="item-price">₹55</div>
+      <div class="item-controls" data-name="Butter Roti" data-price="55"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Lachcha Paratha</div></div>
+      <div class="price-controls-container"><div class="item-price">₹95</div>
+      <div class="item-controls" data-name="Lachcha Paratha" data-price="95"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Lachcha Paratha</div></div>
+      <div class="price-controls-container"><div class="item-price">₹115</div>
+      <div class="item-controls" data-name="Butter Lachcha Paratha" data-price="115"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Naan</div></div>
+      <div class="price-controls-container"><div class="item-price">₹90</div>
+      <div class="item-controls" data-name="Naan" data-price="90"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Naan</div></div>
+      <div class="price-controls-container"><div class="item-price">₹105</div>
+      <div class="item-controls" data-name="Butter Naan" data-price="105"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Garlic Naan</div></div>
+      <div class="price-controls-container"><div class="item-price">₹105</div>
+      <div class="item-controls" data-name="Garlic Naan" data-price="105"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Garlic Naan</div></div>
+      <div class="price-controls-container"><div class="item-price">₹120</div>
+      <div class="item-controls" data-name="Butter Garlic Naan" data-price="120"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Cheese Garlic Naan</div></div>
+      <div class="price-controls-container"><div class="item-price">₹195</div>
+      <div class="item-controls" data-name="Butter Cheese Garlic Naan" data-price="195"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Aloo Paratha</div></div>
+      <div class="price-controls-container"><div class="item-price">₹165</div>
+      <div class="item-controls" data-name="Aloo Paratha" data-price="165"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Paratha</div></div>
+      <div class="price-controls-container"><div class="item-price">₹190</div>
+      <div class="item-controls" data-name="Paneer Paratha" data-price="190"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chapathi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹20</div>
+      <div class="item-controls" data-name="Chapathi" data-price="20"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Chapathi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹30</div>
+      <div class="item-controls" data-name="Butter Chapathi" data-price="30"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- PIZZA OVEN (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Pizza Oven (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Margarita Pizza (Cheese & Tomato)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Margarita Pizza (Cheese & Tomato)" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Supreme Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Veg Supreme Pizza" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Farm House Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Farm House Pizza" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Fiery Hot Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Fiery Hot Pizza" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">White Mushroom Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="White Mushroom Pizza" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- PIZZA OVEN (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Pizza Oven (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Fiery Hot Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹345</div>
+      <div class="item-controls" data-name="Chi Fiery Hot Pizza" data-price="345"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹360</div>
+      <div class="item-controls" data-name="Chi Pizza" data-price="360"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Tandoori Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹360</div>
+      <div class="item-controls" data-name="Chi Tandoori Pizza" data-price="360"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Jalapeno Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹345</div>
+      <div class="item-controls" data-name="Chi Jalapeno Pizza" data-price="345"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Meat Fest Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹395</div>
+      <div class="item-controls" data-name="Meat Fest Pizza" data-price="395"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Smoked Sausage Pizza</div></div>
+      <div class="price-controls-container"><div class="item-price">₹395</div>
+      <div class="item-controls" data-name="Smoked Sausage Pizza" data-price="395"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- CHINESE (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Chinese (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Crispy Chilli Potato</div></div>
+      <div class="price-controls-container"><div class="item-price">₹245</div>
+      <div class="item-controls" data-name="Crispy Chilli Potato" data-price="245"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Honey Chilli Potato</div></div>
+      <div class="price-controls-container"><div class="item-price">₹275</div>
+      <div class="item-controls" data-name="Honey Chilli Potato" data-price="275"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Manchurian</div></div>
+      <div class="price-controls-container"><div class="item-price">₹275</div>
+      <div class="item-controls" data-name="Veg Manchurian" data-price="275"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Mushroom Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Mushroom Chilli" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Mushroom Pepper Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Mushroom Pepper Fry" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Crispy</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Crispy" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Corn Crispy</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Corn Crispy" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Chilli" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Crispy</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Crispy" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer BBQ</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer BBQ" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer 65</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer 65" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Soyabean Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹290</div>
+      <div class="item-controls" data-name="Soyabean Chilli" data-price="290"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Soyabean Schezwan Dry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹290</div>
+      <div class="item-controls" data-name="Soyabean Schezwan Dry" data-price="290"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Satey</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Satey" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Black Pepper Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Black Pepper Chilli" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Mushroom Black Pepper Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Mushroom Black Pepper Chilli" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Spring Roll</div></div>
+      <div class="price-controls-container"><div class="item-price">₹255</div>
+      <div class="item-controls" data-name="Veg Spring Roll" data-price="255"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- CHINESE (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Chinese (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Burnt Garlic Dry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Chi Burnt Garlic Dry" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chi Chilli" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Crispy</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chi Crispy" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi BBQ</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chi BBQ" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi 65</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chi 65" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Lollipop</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Chi Lollipop" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Lollipop Schezwan Dry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chi Lollipop Schezwan Dry" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Lemon Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Chi Lemon Chilli" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Maska Chicken</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Maska Chicken" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Manchurian</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chi Manchurian" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">BBQ Chicken Wings</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="BBQ Chicken Wings" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Fiery Hot Peri Peri Chi Wings</div></div>
+      <div class="price-controls-container"><div class="item-price">₹345</div>
+      <div class="item-controls" data-name="Fiery Hot Peri Peri Chi Wings" data-price="345"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Satey</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chicken Satey" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Black Pepper Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chi Black Pepper Chilli" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Spring Roll</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Chi Spring Roll" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- CHINESE (Seafood) -->
+<div class="menu-section">
+  <div class="section-title">Chinese (Seafood)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Pomfret Tandoor</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Pomfret Tandoor" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Pomfret Tawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Pomfret Tawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Pomfret Rawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Pomfret Rawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Surmai Tawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Surmai Tawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Surmai Rawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Surmai Rawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Tawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Tawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Rawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Rawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Koliwada</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Koliwada" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Tandoori</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Tandoori" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Chilli</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Chilli" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Butter Garlic</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Butter Garlic" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Schezwan</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Schezwan" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Bombil Rawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Bombil Rawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Bombil Tawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Bombil Tawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Basa Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Basa Tikka" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Basa Koliwada</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Basa Koliwada" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Basa Tawa Rawa Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Basa Tawa Rawa Fry" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Fish Finger</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Fish Finger" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Fish & Chips</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Fish & Chips" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Fish Popcorn</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Fish Popcorn" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- TANDOOR (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Tandoor (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Paneer Tikka" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Pahadi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Paneer Pahadi" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Achari</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Paneer Achari" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Malai Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Paneer Malai Tikka" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Reshmi Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Paneer Reshmi Tikka" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Lasooni Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Paneer Lasooni Tikka" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Kalimiri Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Paneer Kalimiri Tikka" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Peri Peri Grilled</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Peri Peri Grilled" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Stuffed Mushroom Tandoori</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Stuffed Mushroom Tandoori" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Cheese Stuffed Mushroom</div></div>
+      <div class="price-controls-container"><div class="item-price">₹335</div>
+      <div class="item-controls" data-name="Cheese Stuffed Mushroom" data-price="335"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Mushroom Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Mushroom Tikka" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Multani Mushroom</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Multani Mushroom" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Seekh Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Veg Seekh Kabab" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Baby Corn Mushroom Aloo Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹320</div>
+      <div class="item-controls" data-name="Baby Corn Mushroom Aloo Tikka" data-price="320"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Tandoori Aloo</div></div>
+      <div class="price-controls-container"><div class="item-price">₹210</div>
+      <div class="item-controls" data-name="Tandoori Aloo" data-price="210"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Platter</div></div>
+      <div class="price-controls-container"><div class="item-price">₹890</div>
+      <div class="item-controls" data-name="Veg Platter" data-price="890"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- TANDOOR (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Tandoor (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Achari</div></div>
+      <div class="price-controls-container"><div class="item-price">₹335</div>
+      <div class="item-controls" data-name="Chi Achari" data-price="335"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Pahadi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹335</div>
+      <div class="item-controls" data-name="Chi Pahadi" data-price="335"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Tikka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹335</div>
+      <div class="item-controls" data-name="Chi Tikka" data-price="335"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Lasooni Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Chi Lasooni Kabab" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Kalimiri Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Chi Kalimiri Kabab" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Reshmi Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹350</div>
+      <div class="item-controls" data-name="Chi Reshmi Kabab" data-price="350"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Malai Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹350</div>
+      <div class="item-controls" data-name="Chi Malai Kabab" data-price="350"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Tandoori Lollypop</div></div>
+      <div class="price-controls-container"><div class="item-price">₹335</div>
+      <div class="item-controls" data-name="Tandoori Lollypop" data-price="335"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Shikari Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹365</div>
+      <div class="item-controls" data-name="Chi Shikari Kabab" data-price="365"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Banjara Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Chi Banjara Kabab" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Angara Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Chi Angara Kabab" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Seekh Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chi Seekh Kabab" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Peri Peri Grill Chi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹355</div>
+      <div class="item-controls" data-name="Peri Peri Grill Chi" data-price="355"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Dilkush Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹385</div>
+      <div class="item-controls" data-name="Chi Dilkush Kabab" data-price="385"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Rozali Kabab</div></div>
+      <div class="price-controls-container"><div class="item-price">₹375</div>
+      <div class="item-controls" data-name="Chi Rozali Kabab" data-price="375"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Tandoori Full</div></div>
+      <div class="price-controls-container"><div class="item-price">₹495</div>
+      <div class="item-controls" data-name="Chi Tandoori Full" data-price="495"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Tandoori Half</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Chi Tandoori Half" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Platter</div></div>
+      <div class="price-controls-container"><div class="item-price">₹1350</div>
+      <div class="item-controls" data-name="Chi Platter" data-price="1350"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- INDIAN MAINS (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Indian Mains (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Handi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹275</div>
+      <div class="item-controls" data-name="Veg Handi" data-price="275"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Kadai</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Kadai" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Mix Veg</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Mix Veg" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Kolhapuri</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Veg Kolhapuri" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Tawa Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Tawa Masala" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Lahori</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Lahori" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Lahori</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Lahori" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Makhani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Makhani" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Bhurji</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Bhurji" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Palak</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Paneer Palak" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Handi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Handi" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Kadai</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Kadai" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Tikka Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Tikka Masala" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Koliwada Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Koliwada Masala" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Kaju Paneer Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹345</div>
+      <div class="item-controls" data-name="Kaju Paneer Masala" data-price="345"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Dal Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹205</div>
+      <div class="item-controls" data-name="Dal Fry" data-price="205"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Dal Tadka</div></div>
+      <div class="price-controls-container"><div class="item-price">₹215</div>
+      <div class="item-controls" data-name="Dal Tadka" data-price="215"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- INDIAN MAINS (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Indian Mains (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Tawa Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chi Tawa Masala" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Kadai</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chi Kadai" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Handi (Half)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹360</div>
+      <div class="item-controls" data-name="Chi Handi (Half)" data-price="360"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Handi (Full)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹590</div>
+      <div class="item-controls" data-name="Chi Handi (Full)" data-price="590"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Kheema</div></div>
+      <div class="price-controls-container"><div class="item-price">₹320</div>
+      <div class="item-controls" data-name="Chi Kheema" data-price="320"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Lahori</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Chi Lahori" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Chi Masala" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Masala Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Chi Masala Fry" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Kolhapuri</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chi Kolhapuri" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Angara Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Chi Angara Masala" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Tikka Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹350</div>
+      <div class="item-controls" data-name="Chi Tikka Masala" data-price="350"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Chicken (Full)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹450</div>
+      <div class="item-controls" data-name="Butter Chicken (Full)" data-price="450"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Butter Chicken (Half)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Butter Chicken (Half)" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Murg Musallam</div></div>
+      <div class="price-controls-container"><div class="item-price">₹525</div>
+      <div class="item-controls" data-name="Murg Musallam" data-price="525"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹265</div>
+      <div class="item-controls" data-name="Egg Masala" data-price="265"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Masala Fry</div></div>
+      <div class="price-controls-container"><div class="item-price">₹275</div>
+      <div class="item-controls" data-name="Egg Masala Fry" data-price="275"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chi Seekh Kabab Masala</div></div>
+      <div class="price-controls-container"><div class="item-price">₹315</div>
+      <div class="item-controls" data-name="Chi Seekh Kabab Masala" data-price="315"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- INDIAN RICE / BIRIYANI (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Indian Rice / Biriyani (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Steam Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹170</div>
+      <div class="item-controls" data-name="Steam Rice" data-price="170"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Jeera Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹190</div>
+      <div class="item-controls" data-name="Jeera Rice" data-price="190"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Dal Khichdi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹275</div>
+      <div class="item-controls" data-name="Dal Khichdi" data-price="275"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Dal Tadka Khichdi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Dal Tadka Khichdi" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹320</div>
+      <div class="item-controls" data-name="Paneer Biriyani" data-price="320"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Tikka Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹330</div>
+      <div class="item-controls" data-name="Paneer Tikka Biriyani" data-price="330"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Biriyani" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Hyderabadi Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Veg Hyderabadi Biriyani" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- INDIAN RICE / BIRIYANI (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Indian Rice / Biriyani (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹310</div>
+      <div class="item-controls" data-name="Chicken Biriyani" data-price="310"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Hyderabadi Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Chicken Hyderabadi Biriyani" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Tikka Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹330</div>
+      <div class="item-controls" data-name="Chicken Tikka Biriyani" data-price="330"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Dum Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹330</div>
+      <div class="item-controls" data-name="Chicken Dum Biriyani" data-price="330"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Prawns Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">APS</div>
+      <div class="item-controls" data-name="Prawns Biriyani" data-price="APS"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Biriyani</div></div>
+      <div class="price-controls-container"><div class="item-price">₹265</div>
+      <div class="item-controls" data-name="Egg Biriyani" data-price="265"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- CHINESE FRIED RICE (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Chinese Fried Rice (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Veg Fried Rice" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Schezwan Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Schezwan Fried Rice" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Triple Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Veg Triple Fried Rice" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Triple Schezwan Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹340</div>
+      <div class="item-controls" data-name="Veg Triple Schezwan Fried Rice" data-price="340"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Manchurian Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Veg Manchurian Rice" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Burnt Garlic Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Veg Burnt Garlic Rice" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Paneer Manchurian Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Paneer Manchurian Rice" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- CHINESE FRIED RICE (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Chinese Fried Rice (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹300</div>
+      <div class="item-controls" data-name="Chicken Fried Rice" data-price="300"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Schezwan Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Chicken Schezwan Fried Rice" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Triple Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹330</div>
+      <div class="item-controls" data-name="Chicken Triple Fried Rice" data-price="330"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Triple Schezwan Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹330</div>
+      <div class="item-controls" data-name="Chicken Triple Schezwan Fried Rice" data-price="330"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Burnt Garlic Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Chicken Burnt Garlic Rice" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Mix Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹395</div>
+      <div class="item-controls" data-name="Mix Fried Rice" data-price="395"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Manchurian Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹345</div>
+      <div class="item-controls" data-name="Chicken Manchurian Rice" data-price="345"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Egg Fried Rice" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Schezwan Fried Rice</div></div>
+      <div class="price-controls-container"><div class="item-price">₹300</div>
+      <div class="item-controls" data-name="Egg Schezwan Fried Rice" data-price="300"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- NOODLES (Veg) -->
+<div class="menu-section">
+  <div class="section-title">Noodles (Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Veg Noodles" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Schezwan Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Veg Schezwan Noodles" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Manchurian Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹325</div>
+      <div class="item-controls" data-name="Veg Manchurian Noodles" data-price="325"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Veg Burnt Garlic Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹285</div>
+      <div class="item-controls" data-name="Veg Burnt Garlic Noodles" data-price="285"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+
+<!-- NOODLES (Non-Veg) -->
+<div class="menu-section">
+  <div class="section-title">Noodles (Non-Veg)</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹300</div>
+      <div class="item-controls" data-name="Chicken Noodles" data-price="300"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Schezwan Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Chicken Schezwan Noodles" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Burnt Garlic Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹305</div>
+      <div class="item-controls" data-name="Chicken Burnt Garlic Noodles" data-price="305"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Chicken Manchurian Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹345</div>
+      <div class="item-controls" data-name="Chicken Manchurian Noodles" data-price="345"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹295</div>
+      <div class="item-controls" data-name="Egg Noodles" data-price="295"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Egg Schezwan Noodles</div></div>
+      <div class="price-controls-container"><div class="item-price">₹300</div>
+      <div class="item-controls" data-name="Egg Schezwan Noodles" data-price="300"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- ACCOMPANIMENTS -->
+<div class="menu-section">
+  <div class="section-title">Accompaniments</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Raitha Veg</div></div>
+      <div class="price-controls-container"><div class="item-price">₹80</div>
+      <div class="item-controls" data-name="Raitha Veg" data-price="80"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Raitha Boondi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹120</div>
+      <div class="item-controls" data-name="Raitha Boondi" data-price="120"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Curd</div></div>
+      <div class="price-controls-container"><div class="item-price">₹75</div>
+      <div class="item-controls" data-name="Curd" data-price="75"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Papad (Roasted)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹45</div>
+      <div class="item-controls" data-name="Papad (Roasted)" data-price="45"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Papad (Fry)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹45</div>
+      <div class="item-controls" data-name="Papad (Fry)" data-price="45"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Papad (Masala)</div></div>
+      <div class="price-controls-container"><div class="item-price">₹65</div>
+      <div class="item-controls" data-name="Papad (Masala)" data-price="65"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div>
+<!-- DESSERT -->
+<div class="menu-section">
+  <div class="section-title">Dessert</div>
+  <ul class="menu-list">
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Malai Kulfi</div></div>
+      <div class="price-controls-container"><div class="item-price">₹90</div>
+      <div class="item-controls" data-name="Malai Kulfi" data-price="90"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Kesar Pista</div></div>
+      <div class="price-controls-container"><div class="item-price">₹90</div>
+      <div class="item-controls" data-name="Kesar Pista" data-price="90"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Ice Cream Vanilla</div></div>
+      <div class="price-controls-container"><div class="item-price">₹120</div>
+      <div class="item-controls" data-name="Ice Cream Vanilla" data-price="120"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Gulab Jamun</div></div>
+      <div class="price-controls-container"><div class="item-price">₹90</div>
+      <div class="item-controls" data-name="Gulab Jamun" data-price="90"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Ice Cream with Gulab Jamun</div></div>
+      <div class="price-controls-container"><div class="item-price">₹130</div>
+      <div class="item-controls" data-name="Ice Cream with Gulab Jamun" data-price="130"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+    <li class="menu-list-item">
+      <div class="menu-item-info"><div class="menu-item-name">Ice Cream with Choco Sauce</div></div>
+      <div class="price-controls-container"><div class="item-price">₹160</div>
+      <div class="item-controls" data-name="Ice Cream with Choco Sauce" data-price="160"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
+    </li>
+  </ul>
+</div> 
         <!-- Alcohol Screen -->
         <div id="alcohol-screen" class="screen">
             <div class="screen-header">
