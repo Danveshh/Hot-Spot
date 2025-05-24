@@ -1056,10 +1056,10 @@
 
 <!-- Egg -->
 <div class="menu-section">
-  <div class="section-title">Bar Nibble (Egg)</div>
+  <div class="section-title">Egg</div>
   <ul class="menu-list">
     <li class="menu-list-item">
-      <div class="menu-item-info"><div class="menu-item-name">Boiled Egg</div></div>
+      <div class="menu-item-info"><div class="menu-item-name">Egg</div></div>
       <div class="price-controls-container"><div class="item-price">₹90</div>
       <div class="item-controls" data-name="Boiled Egg" data-price="90"><button class="add-to-cart-btn" onclick="addToCart(this)">Add</button></div></div>
     </li>
@@ -1445,9 +1445,9 @@
   </ul>
 </div>
 
-<!-- CHINESE (Seafood) -->
+<!-- Seafood -->
 <div class="menu-section">
-  <div class="section-title">Chinese (Seafood)</div>
+  <div class="section-title">Seafood</div>
   <ul class="menu-list">
     <li class="menu-list-item">
       <div class="menu-item-info"><div class="menu-item-name">Pomfret Tandoor</div></div>
@@ -2229,7 +2229,16 @@
     </li>
   </ul>
 </div> 
-      <!-- Alcohol Screen -->
+ <div id="food-menu-screen" class="screen">
+    <div class="screen-header">
+        <button class="back-button" onclick="showScreen('home')">←</button>
+        <h1>Food Menu</h1>
+        <div class="cart-icon" onclick="showScreen('cart')" style="margin-left: auto;">
+            🛒 <span id="cart-count">0</span>
+        </div>
+    </div>     
+
+
 <div id="alcohol-screen" class="screen">
   <div class="screen-header">
     <button class="back-button" onclick="showScreen('home')">←</button>
